@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* .contact_bar section -------------------------------------------------------------------*/
+
+.contact_bar {
+    background-color: rgb(215, 248, 250);
+}
+
+.contact_bar .container {
+    display: flex;    
+    color: rgb(39, 107, 109);
+    padding: 10px 0;
+    justify-content: space-between; 
+}
+
+.left {
+    display: flex;
+}
+.left .mail{
+    display: flex;
+}
+.left .mobile{
+    display: flex;
+}
+
+.left i {
+    padding: 0 10px;
+}
+.right{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.right i {
+    display: block;
+}
+
+.container a {
+    text-decoration: none;
+    color: rgb(39, 107, 109);
+}
+
+/* .menu_bar section ------------------------------------------------------------------------------------*/
+
+.menu_bar .container {   
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+#logo {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu_bar ul {
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+.menu_bar a {
+    text-decoration: none;
+    color: rgb(39, 107, 109);
+}
+
+.menu_bar ul li {
+    display: inline-block;
+}
+
+.menu_bar ul li a {    
+    padding: 0 10px;
+}
+
+.menu_bar i {
+    color: rgb(39, 107, 109);   
+}
+
+/* image section -----------------------------------------------------------------------------------------------*/
+
+.img_section {
+    background: url(Img_silder.jpg);
+    background-size: 100% 100%;    
+}
+
+.img_section .container {
+    text-align: center;
+    padding: 150px 0;
+}
+
+.img_section h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+}
+
+.img_section p {
+    color: darkgray;
+    padding: 20px 0;
+}
+
+.img_section button {
+    padding: 15px;
+    background-color: rgb(54, 170, 170);
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* .introduction section--------------------------------------------------------------------------------- */
+
+.introduction .container {
+    text-align: center;  
+    padding: 50px 0;
+}
+
+.intro h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(39, 107, 109);
+}
+.intro p {
+    color: rgb(84, 84, 84);
+    padding: 25px 0;
+    font-size: 18px;
+}
+.function h1 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(39, 107, 109);
+    text-align: left;
+    padding-left: 20px;
+}
+.function i {
+    font-size: 50px;
+    color: rgb(75, 193, 197);
+    font-weight: bolder;
+}
+.function p {
+    padding: 30px 20px;
+    text-align: justify;
+}
+
+.function {
+    display: flex;
+    padding-top: 40px;
+}
+
+.function .passion {
+    display: flex;
+}
+
+.function .creativity {
+    display: flex;
+}
+
+.function .quality {
+    display: flex;
+}
+
+/* .latest_works section -------------------------------------------------------------------------------------*/
+
+.latest_works {
+    background-color: rgb(236, 229, 229);
+}
+
+.latest_works .container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.latest_works h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(39, 107, 109);
+}
+
+.latest_works p {
+    color: rgb(84, 84, 84);
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+.brands {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.tieup {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tieup img {    
+    size: 100% 100%;
+}
+
+.grand_motel {
+    width: 45%;
+    background-color: white;
+}
+
+.fresh_branding {
+    width: 45%;
+    background-color: white;
+}
+
+.brands img {
+    width: 100%; 
+    height: auto;
+}
+
+.brands h4 {
+    font-weight: bold;
+    color: rgb(39, 107, 109);  
+    padding: 10px 0;
+}
+
+/* .get_in_touch section -------------------------------------------------------------------------------------------*/
+
+.get_in_touch .container {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.get_in_touch h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(39, 107, 109);
+}
+
+.get_in_touch p {
+    color: rgb(84, 84, 84);
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+.get_in_touch button {
+    padding: 15px;
+    background-color: rgb(54, 170, 170);
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* about section --------------------------------------------------------------------------------------------------*/
+
+.about {
+    background-color: #2f4052;
+}
+
+.about .container {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 60px 0;
+}
+
+.about h5 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding-top: 25px;
+}
+
+.gallary {
+    width: 23%;
+    color: rgb(210, 203, 203);
+}
+
+.about p {
+    padding: 10px 0;
+}
+.collage{
+    width: 100%;
+    padding-top: 15px;
+}
+.collage div{
+    display: flex;
+    width: 100%;
+}
+.collage img{
+    width: 50%;
+}
+
+.about .container .contact {
+    width: 100%;   
+}
+
+.about .container .contact div {
+    display: flex;
+    width: 100%;
+}
+
+.contact div a {
+    text-decoration: none;
+    color: rgb(210, 203, 203);
+}
+.contact i {
+    font-size: 20px;
+    width: 10%;
+}
+
+.about .container .form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+input {
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(71, 67, 67);
+}
+
+.about button {
+    background-color: rgb(122, 202, 198);
+    position: absolute;
+    padding: 3px 25px;
+    right: 5px;
+}
